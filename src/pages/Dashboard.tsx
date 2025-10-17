@@ -3,6 +3,7 @@ import { MetricCard } from "@/components/MetricCard";
 import { TenantCard } from "@/components/TenantCard";
 import { RevenueChart } from "@/components/RevenueChart";
 import { ActivityFeed } from "@/components/ActivityFeed";
+import { GeoMap } from "@/components/GeoMap";
 import { Building2, TrendingUp, Users, DollarSign } from "lucide-react";
 
 const Dashboard = () => {
@@ -54,6 +55,11 @@ const Dashboard = () => {
           <div>
             <ActivityFeed />
           </div>
+        </div>
+
+        {/* Geographic Map */}
+        <div>
+          <GeoMap />
         </div>
 
         {/* Tenants Grid */}
